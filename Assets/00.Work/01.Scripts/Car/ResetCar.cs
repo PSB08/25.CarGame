@@ -11,7 +11,7 @@ public class ResetCar : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.R))
         {
-            parentObj.transform.rotation = Quaternion.identity;
+            ResetPosition();
         }
     }
 
