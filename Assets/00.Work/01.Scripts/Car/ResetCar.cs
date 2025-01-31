@@ -13,6 +13,10 @@ public class ResetCar : MonoBehaviour
         {
             ResetPosition();
         }
+        if (Input.GetKeyDown(KeyCode.T))
+        {
+            parentObj.transform.rotation = Quaternion.identity;
+        }
     }
 
     private void OnCollisionEnter(Collision collision)
